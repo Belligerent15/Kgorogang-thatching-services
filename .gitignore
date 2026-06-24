@@ -1,0 +1,92 @@
+# Kgorogang Thatching Services - .gitignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+
+# Build and Distribution
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Dependency Directories
+node_modules/
+bower_components/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
+
+# Backup Files
+*.bak
+*.backup
+*_backup.*
+
+# Archive Files
+*.rar
+*.7z
+
+# Personal Notes (if any)
+personal_notes.txt
+todo.txt
+README_PRIVATE.md
+
+# FTP Configuration (if using FTP upload)
+.ftpconfig
+.ftppass
+
+# Test Files
+test.html
+demo.html
+scratch.*
+
+# Large Media Files (keep originals elsewhere)
+# Uncomment if you have large source files
+# assets/images/originals/
+# *.psd
+# *.ai
+
+# Package Manager Lock Files (if you decide to use npm/yarn later)
+package-lock.json
+yarn.lock
+
+# System Files
+ehthumbs_vista.db
+
+# WordPress (if you ever integrate with WordPress)
+wp-config.php
+
+# Analytics and Tracking Scripts (if stored separately)
+analytics.js
+
+# Documentation Drafts
+drafts/
+
+# Any proprietary business documents
+contracts/
+invoices/
+quotes/
